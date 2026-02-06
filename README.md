@@ -1,20 +1,34 @@
 <div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+<img width="1200" height="475" alt="Campus2Kiez Banner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
 </div>
 
-# Run and deploy your AI Studio app
+# 🚀 Campus2Kiez: The Autonomous Student Relocation Agent
 
-This contains everything you need to run your app locally.
+**Campus2Kiez** is an "Action Era" orchestrator built for the Google Gemini 3 Hackathon. It uses multimodal reasoning to bridge the high-stress gap for international students moving from India to Germany.
 
-View your app in AI Studio: https://ai.studio/apps/drive/1FUJZSSJbN6Y-nk6sHXkdL6AAIxlE2cAw
+---
 
-## Run Locally
+## ✨ Key Features
+* **🎓 Smart Uni-Shortlister:** Automatic Indian-to-German grade conversion (Bavarian Formula) + QS 2026 Ranking integration.
+* **🔑 Agentic Video-KYC:** Uses Gemini 3 Vision to verify physical key handovers and rental contracts in real-time.
+* **🇮🇳🇩🇪 Live Vibe-Translator:** Real-time, low-latency translation between English/Hindi and German for landlord meetings.
+* **🛡️ Passport Sentinel:** A marathon agent tracking visa health and embassy appointments.
 
-**Prerequisites:**  Node.js
+---
 
+## 🛠️ Tech Stack
+* **Model:** Gemini 3 Pro (Thinking Model)
+* **Frontend:** React (deployed via Vercel/GitHub Pages)
+* **Intelligence:** Gemini API (Tool-Calling, Multimodal Vision, Live API)
+* **Grounding:** Google Search (for real-time DAAD data)
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+---
+
+## 💻 Run Locally
+
+**Prerequisites:** Node.js (v18+)
+
+1. **Clone the repo:**
+   ```bash
+   git clone [https://github.com/zeromaxtech/Campus2Kiez.git](https://github.com/zeromaxtech/Campus2Kiez.git)
+   cd Campus2Kiez
