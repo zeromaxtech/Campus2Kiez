@@ -1,0 +1,8 @@
+{
+  "name": "Campus2Kiez",
+  "description": "An AI-powered assistant for Indian students moving to Germany, featuring document verification, video KYC, and automated city registration.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}
